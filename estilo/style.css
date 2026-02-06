@@ -30,8 +30,8 @@ body {
 }
 a.externo::after {
     content: '\00A0\1F517';
-    color: transparent;
-    text-shadow: 0 0 0 var(--cor3);
+    /*color: transparent;
+    text-shadow: 0 0 0 var(--cor3);*/
 }
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
