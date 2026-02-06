@@ -29,7 +29,7 @@ body {
     font-family: var(--fonte-padrao);
 }
 a.externo::after {
-    content: '\00A0\1F517';    
+    content:'🔗';    
     /*color: transparent;
     text-shadow: 0 0 0 var(--cor3);*/
 }
@@ -113,14 +113,15 @@ main strong {
 }
 main a {
     text-decoration: none;
-    font-weight: bold;
-    color: var(--cor5);
-    background-color: var(--cor1);
-    padding: 2px 6px;    
+    font-weight: normal;
+    color: var(--cor0);
+    background-color: var(--cor4);
+    padding: 2px 4px;   
+    border-radius: 15px; 
 }
 main a:hover {
     text-decoration: underline;
-    color: var(--cor4);
+    color: var(--cor1);
 }
 main img {
     width: 100%;
